@@ -1,0 +1,63 @@
+Multichar_Symbols
+
+%<n%>                ! Nombre
+
+LEXICON Root
+DIMINUTIVE;
+POSSESSIVE;
+STEMS ;
+LEXICON STEMS
+
+siwa:siwa N-siwa ; ! “mujer”
+tlal:tlal N-tlal ; ! “tierra”
+
+a:a N-siwa ; ! "agua"
+coyo:coyo N-siwa ; !"coyote"
+tli:tli N-siwa ; ! "fuego"
+soki:soki N-siwa ; ! "lodo"
+kone:kone N-siwa ; ! "niño"
+ichpoka:ichpoka N-siwa ; ! "muchacha"
+xiwi-xiwi N-siwa ; ! "año"
+e:e N-siwa ; ! "frijol"
+peta:peta N-siwa ; ! "petate"
+papalo:papalo N-siwa ; ! "mariposa"
+chapol:chapol N-tlal ; ! "chapulin"
+mil:mil N-tlal ; ! "milpa"
+mes:mes N-mes ; ! "luna"
+amoch:amoch N-mes ; ! "libro"
+pok:pok N-mes ; ! "humo"
+tenamas:tenamas N-mes ; ! "piedra de fogata"
+tekomi:tekomi N-siwa ; ! "jicara"
+tenami:tenami N-siwa ; ! "muro"
+
+
+LEXICON N-siwa
+
+%<n%>%<abs%>:%>tl # ;
+%<n%>: FLEXION ;
+
+LEXICON N-tlal
+
+%<n%>%<abs%>:%>li # ;
+%<n%>: FLEXION ;
+
+LEXICON N-mes
+
+%<n%>%<abs%>:%>tli # ;
+%<n%>: FLEXION ;
+
+LEXICON FLEXION
+%<pl%>:%>me # ;
+%<af%>:%>tsi # ;
+%<pl%>%<af%>:%>tsitsi # ;
+
+LEXICON DIMINUTIVE
+%<dim%>:pil STEMS ;
+
+LEXICON POSSESSIVE
+%<pos1sg%>:no STEMS ;
+%<pos2sg%>:mo STEMS ;
+%<pos3sg%>:i STEMS ;
+%<pos1pl%>:to STEMS ;
+%<pos2pl%>:imo STEMS ;
+%<pos3pl%>:in STEMS ;
