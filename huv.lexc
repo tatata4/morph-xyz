@@ -1,0 +1,54 @@
+Multichar_Symbols
+
+%<n%>                ! Nombre
+%<v%>                ! Verbo
+%<a%>                ! Adjetivo
+%<det%>                ! Determinante
+%<col%>              ! Colectivo
+%<pl%>               ! Plural
+%>                   ! Frontera de morfema
+
+! (COLECTIVO) - RAIZ
+! RAIZ
+! DET - (PL)
+LEXICON Root
+
+Colectivo    ;
+Determinante ;
+Adjetivos ;
+Nombres ;
+Verbos ;
+
+LEXICON Colectivo
+
+%<col%>:%>mon Nombres-Humanos ; ! "Colectivo"
+Nombres-Humanos ;
+
+LEXICON Plural
+%<pl%>:%>üw #; ! "Plural"
+# ;
+
+LEXICON Nombres-Humanos
+ndok%<n%>:ndok # ; ! “Pescador”
+
+LEXICON Nombres
+pet%<n%>:pet # ; ! “Perro”
+jow%<n%>:jow # ; ! “Hamaca”
+müx%<n%>:müx # ; ! “Cayuco”
+
+LEXICON Verbos
+
+xomb%<v%>:xomb # ; ! "Encontrar"
+jaw%<v%>:jaw # ; ! "Ver"
+mb%<v%>:mb # ; ! "Ir"
+joj%<v%>:joj # ; ! "Toser"
+
+LEXICON Adjetivos
+napat%<adj%>:napat # ; ! "Bravo"
+napak%<adj%>:napak # ; ! "Duro"
+naxix%<adj%>:naxix # ; ! "Sabroso"
+nambeor%<adj%>:nambeor # ; ! "Negro"
+
+
+LEXICON Determinante
+aaga%<det%>:aaga Plural ; ! "El"
