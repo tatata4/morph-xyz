@@ -1,11 +1,17 @@
 Multichar_Symbols
 
 %<n%>                ! Nombre
-%<poss%> :ye PERS ; ! Posesivo
-%<px%> 	! Persona
+%<poss%>   ! Posesivo
+%<px1sg%> 	! Persona
+%<px2sg%> 	! Persona
 
 
 LEXICON Root
+
+Sustantivos ; 
+
+LEXICON Sustantivos 
+
 kwáá%<n%>:kwáá POSS ; ! "negro"
 íku%<n%>:íku POSS ; ! "piojo"
 yóo%<n%>:yóo POSS ; ! "maguey"
@@ -26,10 +32,10 @@ dutú'ú%<n%>:dutú'ú POSS ; ! "huevo"
 ko'o%<n%>:ko'o POSS ; ! "pie"
 ínú%<n%>:ínú POSS ; ! "tres"
 dim'man%<n%>:dim'man POSS ; ! "pierna"
-dútyó'ón %<n%>:dútyó'ón  POSS ; ! "árbol"
+dútyó'ón%<n%>:dútyó'ón  POSS ; ! "árbol"
 bá'ku%<n%>:bá'ku POSS ; ! "cárcel"
 kwéé%<n%>:kwéé POSS ; ! "verde"
-"xiba%<n%>:xiba POSS ; ! "petate"
+xiba%<n%>:xiba POSS ; ! "petate"
 yámtóón%<n%>:yámtóón POSS ; ! "tizne"
 jikyá'án%<n%>:jikyá'án POSS ; ! "montaña"
 jé'è%<n%>:jé'è POSS ; ! "hongo"
@@ -84,7 +90,7 @@ jíyú%<n%>:jíyú POSS ; ! "carrizo"
 ndétí%<n%>:ndétí POSS ; ! "ejote"
 jíkú%<n%>:jíkú POSS ; ! "río"
 jikyá'án%<n%>:jikyá'án POSS ; ! "bosque"
-chin man%<n%>:chin man POSS ; ! "noche"
+chin% man%<n%>:chin% man POSS ; ! "noche"
 tiba%<n%>:tiba POSS ; ! "empanada"
 yá'an%<n%>:yá'an POSS ; ! "sol"
 sníìn%<n%>:sníìn POSS ; ! "sombrero"
@@ -117,7 +123,7 @@ l'ín%<n%>:l'ín POSS ; ! "corto"
 ndukwéndita%<n%>:ndukwéndita POSS ; ! "todo"
 íko%<n%>:íko POSS ; ! "hormiga"
 tíkù%<n%>:tíkù POSS ; ! "loma"
-yán ko'on%<n%>:yán ko'on POSS ; ! "milpa"
+yán% ko'on%<n%>:yán% ko'on POSS ; ! "milpa"
 joò%<n%>:joò POSS ; ! "calzones"
 másk'a%<n%>:másk'a POSS ; ! "más"
 núnìngw'idi%<n%>:núnìngw'idi POSS ; ! "aguacate"
@@ -134,16 +140,16 @@ núnì% íyu%<n%>:núnì% íyu POSS ; ! "rocío"
 chennu%<n%>:chennu POSS ; ! "ancho"
 dakwòó%<n%>:dakwòó POSS ; ! "bebé"
 ndutyó'ón%<n%>:ndutyó'ón POSS ; ! "tronco"
-iya %<n%>:iya  POSS ; ! "chile"
+iya%<n%>:iya  POSS ; ! "chile"
 benun%<n%>:benun POSS ; ! "epazote"
 yáta%<n%>:yáta POSS ; ! "hierba"
 ndíy'ú%<n%>:ndíy'ú POSS ; ! "enredadera, bejuco"
 yó'on%<n%>:yó'on POSS ; ! "lumbre"
-tyáká kwó'o%<n%>:tyáká kwó'o POSS ; ! "mamey"
+tyáká% kwó'o%<n%>:tyáká% kwó'o POSS ; ! "mamey"
 bétí%<n%>:bétí POSS ; ! "tamal"
-ndutyuúku %<n%>:ndutyuúku  POSS ; ! "semilla"
+ndutyuúku%<n%>:ndutyuúku  POSS ; ! "semilla"
 majóbí%<n%>:majóbí POSS ; ! "hoy"
-kóndá jóbí%<n%>:kóndá jóbí POSS ; ! "anteayer"
+kóndá% jóbí%<n%>:kóndá% jóbí POSS ; ! "anteayer"
 yùúnní%<n%>:yùúnní POSS ; ! "camino"
 yada%<n%>:yada POSS ; ! "pájaro"
 íb'à%<n%>:íb'à POSS ; ! "mercado"
@@ -166,7 +172,7 @@ ba'a%<n%>:ba'a POSS ; ! "casa"
 yukjá'á%<n%>:yukjá'á POSS ; ! "chilacayote"
 kwaa%<n%>:kwaa POSS ; ! "blanco"
 noómo'o%<n%>:noómo'o POSS ; ! "mitad"
-ámá syéntú%<n%>:ámá syéntú POSS ; ! "cien"
+ámá% syéntú%<n%>:ámá% syéntú POSS ; ! "cien"
 yó'ón%<n%>:yó'ón POSS ; ! "leña"
 níín%<n%>:níín POSS ; ! "chayote"
 yaku%<n%>:yaku POSS ; ! "alto"
@@ -176,20 +182,16 @@ ya'a%<n%>:ya'a POSS ; ! "jícara"
 yádí%<n%>:yádí POSS ; ! "dulce"
 dúnan% yó'ón%<n%>:dúnan% yó'ón POSS ; ! "rama"
 
+LEXICON POSS
+
+%<poss%>:%>ye PERS ; 
 
 LEXICON PERS
 
-d%<px2sg%>:POSS d ;
-s%<px3s%>:  s ;
-ta%<px3f%>: ta ;
-t%<px3a%>: t ;
-w%<px1plin%>: w ;
-n%<px1plex%>: n ;
-n%<px2pl%>: n ;
-
-
-!LEXICON POSS
-
-
-LEXICON PERS
-%<PERS%>
+%<px2sg%>:%>d  # ;
+%<px3sg%>%<m%>:%>s  # ;
+%<px3sg%>%<f%>:%>ta  # ;
+%<px3a%>:%>t  # ;
+%<px1pl%>%<in%>:%>w  # ;
+%<px1pl%>%<ex%>:%>n  # ;
+%<px2pl%>:%>n  # ;
