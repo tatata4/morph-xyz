@@ -1,10 +1,14 @@
 Multichar_Symbols
 
 %<n%>                ! Nombre
+%<v%>		!Verb
 %<pl%>               ! Plural
 %<sg%>               ! singular
 %<cop%>              ! copulativo
-%<hab%>              ! habitual
+%<habi%>              ! habitual***
+%<cont%>              ! habitual***
+%<prog%>              ! habitual***
+%<aori%>              ! habitual***
 %<3p%>
 %<ind%>              ! indicativo
 %<1/2p%>
@@ -13,13 +17,13 @@ Multichar_Symbols
 %<1pl%>              ! 1 persona pl
 %<2pl%>              ! 2 persona pl
 %<3pl%>              ! 3 persona pl
-
 %<obj%>              ! Objetivo
 %<gen%>              ! Genitivo
 %<loc%>              ! Locativo
 %<res%>              ! Residencial
 %<com%>              ! Comitativo
 %<ins%>              ! Instrumental
+%<inf%>		  ! infinitivo
 %>                   ! frontera de la morfema
 %+ 
 
@@ -33,9 +37,10 @@ Multichar_Symbols
 LEXICON Root
 
 Nouns;
+Verb-Stems;
 
 LEXICON COP
-%+i%<cop%>:%>i HAB;
+%+i%<cop%>:%>i ASP;
 
 LEXICON 12PERS
 %+ni%<1sg%>:%>ni #;
@@ -46,13 +51,16 @@ LEXICON 12PERS
 LEXICON 3PERS
 %+kxï%<3pl%>:%>kxï #;
 
-LEXICON IND
+LEXICON MODO
 %+ti%<3p%>%<ind%>:%>ti # ;
 %+ti%<3p%>%<ind%>:%>ti 3PERS;
 %+ka%<1/2p%>%<ind%>:%>ka 12PERS;
 
-LEXICON HAB
-%+sïn%<hab%>:%>sïn IND;
+LEXICON ASP
+%+xam%<cont%>:%>xam MODO;
+%+xïn%<habi%>:%>xïn MODO;
+%+xa%<prog%>:%>xa MODO;
+%+x%<aori%>:%>x MODO;
 
 LEXICON MOD-N
 %<sg%>: # ;
@@ -82,3 +90,15 @@ wichu:wichu N ; ! perro
 axuni:axuni N ; ! venado
 tsakapu:tsakapu N ; ! piedra
 tsïtsïki:tsïtsïki N ; ! flor
+
+LEXICON V
+%<v%>%<inf%>: ni # ;
+%<v%>: ASP ;
+
+
+LEXICON Verb-Stems
+exe:exe  V ; ! ver
+pire:pire V ; ! cantar
+wanda:wanda V ; ! hablar
+t'ire:t'ire V ; ! comer
+xanara:xanara V ; ! caminar
