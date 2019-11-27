@@ -3,17 +3,21 @@ Multichar_Symbols
 %<n%>                ! Nombre
 %<pos%>              ! Posesivo
 
+%<px2sg%>
+
+%>
+
 LEXICON Root
 Nouns;
 
 LEXICON Poss
 
-%<px2sg%>yed # ;
+%<px2sg%>:%>ye%>d # ;
 
 LEXICON N
 
  Poss ;
-# ;
+ # ;
 
 LEXICON Nouns
 
@@ -27,8 +31,8 @@ itikunu%<n%>:itikunu # ; ! "cerdo"
 dnini%<n%>:dnini # ; ! "cuerno"
 kúú%<n%>:kúú # ; ! "culebra"
 bichí%<n%>:bichí # ; ! "gato"
-nráá%<n%>:nráá%N;!"gusano"
- ndáá%<n%>:ndáá %N ; ! "gusano"
+nráá%<n%>:nráá N;!"gusano"
+ndáá%<n%>:ndáá N ; ! "gusano"
 ikùu%<n%>:ikùu # ; ! "hormiga"
 dutít%<n%>:dutít # ; ! "huevo"
 ndí'i%<n%>:ndí'i # ; ! "mosca"
@@ -87,10 +91,10 @@ yakaá%<n%>:yakaá # ; ! "ocotal"
 yábá%<n%>:yábá # ; ! "peña"
 d'íyú%<n%>:d'íyú # ; ! "raíz"
 dúnè%<n%>:dúnè # ; ! "rama"
-nrata%<n%>:nrata# ; ! "semilla"
-ndata%<n%>ndata#;!"semilla"
+nrata%<n%>:nrata # ; ! "semilla"
+ndata%<n%>ndata #;!"semilla"
 yá'án%<n%>:yá'án # ; ! "sol"
-inu'u% yáàn%<n%>:inu'u yáàn # ; ! "temblor"
+inu'u% yáàn%<n%>:inu'u% yáàn # ; ! "temblor"
 yá'àn%<n%>:yá'àn # ; ! "tierra"
 dútú%<n%>:dútú # ; ! "tronco"
 xabi%<n%>:xabi # ; ! "trueno"
@@ -112,7 +116,7 @@ kùù%<n%>:kùù # ; ! "fierro"
 yakù%<n%>:yakù # ; ! "iglesia"
 yaá%<n%>:yaá # ; ! "jícara"
 níbeè%<n%>:níbeè # ; ! "mercado"
-"yúdú%<n%>:yúdú # ; ! "metate"
+yúdú%<n%>:yúdú # ; ! "metate"
 kàkà%<n%>:kàkà # ; ! "papel"
 kakaà%<n%>:kakaà # ; ! "peine"
 ibe%<n%>:ibe # ; ! "petate"
@@ -135,5 +139,5 @@ sá'àl'í%<n%>:sá'àl'í # ; ! "niño"
 ka'a%<n%>:ka'a # ; ! "pie"
 d'ima%<n%>:d'ima # ; ! "pierna"
 nunday%<n%>:nunday # ; ! "saliva"
-nruù%<n%>:nruu#;!"vena"
- nduù%<n%>: nduù # ; ! "vena"
+nruù%<n%>:nruu #;!"vena"
+nduù%<n%>:nduù # ; ! "vena"
