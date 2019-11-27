@@ -3,9 +3,10 @@ Multichar_Symbols
 %<n%>                ! Nombre
 %<v%>                ! Verbo
 %<a%>                ! Adjetivo
-%<det%>                ! Determinante
+%<det%>              ! Determinante
 %<col%>              ! Colectivo
 %<pl%>               ! Plural
+
 %>                   ! Frontera de morfema
 
 ! (COLECTIVO) - RAIZ
@@ -21,7 +22,7 @@ Verbos ;
 
 LEXICON Colectivo
 
-%<col%>:%>mon Nombres-Humanos ; ! "Colectivo"
+%<col%>:mon%> Nombres-Humanos ; ! "Colectivo"
 Nombres-Humanos ;
 
 LEXICON Plural
