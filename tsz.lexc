@@ -1,0 +1,82 @@
+Multichar_Symbols
+
+%<n%>                ! Nombre
+%<pl%>               ! Plural
+%<sg%>               ! singular
+%<cop%>              ! copulativo
+%<hab%>              ! habitual
+%<3p%>
+%<ind%>              ! indicativo
+%<1/2p%>
+%<1sg%>              ! 1 persona sg
+%<2sg%>              ! 2 persona sg
+%<1pl%>              ! 1 persona pl
+%<2pl%>              ! 2 persona pl
+%<3pl%>              ! 3 persona pl
+
+%<obj%>              ! Objetivo
+%<gen%>              ! Genitivo
+%<loc%>              ! Locativo
+%<res%>              ! Residencial
+%<com%>              ! Comitativo
+%<ins%>              ! Instrumental
+%>                   ! frontera de la morfema
+%+ 
+
+
+!!!! Archiphonemes
+
+%{t%} 
+
+LEXICON Root
+
+Nouns;
+
+LEXICON COP
+%+i%<cop%>:%>i HAB;
+
+LEXICON 12PERS
+%+ni%<1sg%>:%>ni #;
+%+ri%<2sg%>:%>ri #;
+%+kxï%<1pl%>:%>kxï #;
+%+ts'ï%<2pl%>:%>ts'ï #;
+
+LEXICON 3PERS
+%+kxï%<3pl%>:%>kxï #;
+
+LEXICON IND
+%+ti%<3p%>%<ind%>:%>ti # ;
+%+ti%<3p%>%<ind%>:%>ti 3PERS;
+%+ka%<1/2p%>%<ind%>:%>ka 12PERS;
+
+LEXICON HAB
+%+sïn%<hab%>:%>sïn IND;
+
+LEXICON MOD-N
+%<sg%>: # ;
+%<sg%>: COP ;
+%<sg%>: CASO ;
+PL ;
+
+LEXICON PL
+%+icha%<pl%>:%>icha #;
+%+icha%<pl%>:%>icha CASO;
+
+LEXICON CASO
+%+ni%<obj%>:%>ni # ;
+%+iri%<gen%>:%>iri # ;
+%+rhu%<loc%>:%>rhu # ;
+%+o%<res%>:%>o # ;
+%+nguni%<com%>:%>nguni # ;
+%+mbu%<ins%>:%>mbu # ;
+
+LEXICON N
+%<n%>: # ;
+%<n%>: MOD-N ;
+
+LEXICON Nouns
+kwanaxï:kwanaxï N ; ! rana
+wichu:wichu N ; ! perro
+axuni:axuni N ; ! venado
+tsakapu:tsakapu N ; ! piedra
+tsïtsïki:tsïtsïki N ; ! flor

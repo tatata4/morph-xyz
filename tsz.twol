@@ -1,0 +1,23 @@
+Alphabet 
+
+a b ch ch' d e g i ï j k k' kw kw' l m n nh o p p' r rh s t t' ts ts' u w x y
+
+%{t%}:t 
+%{t%}:d
+;
+
+Sets
+
+Nas = m n ;
+Ocl = p t k ;
+
+Rules 
+
+"Remove morpheme boundary"
+%>:0 <=> _ ;
+
+"Sonorización de oclusivas"
+
+Ox:Sx <=> Nas: %>: _ ;
+        where Ox in Ocl
+              Sx in (b d g) matched ;
