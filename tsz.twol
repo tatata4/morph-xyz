@@ -1,15 +1,18 @@
 Alphabet 
 
-a b ch ch' d e g i ï j k k' kw kw' l m n nh o p p' r rh s t t' ts ts' u w x y
+a b c d e g i ï j  k l m n h o p r s t  u w x y '
 
 %{t%}:t 
 %{t%}:d
+%{j%}:j %{j%}:0
+%{a%}:' %{a%}:0
 ;
 
 Sets
 
 Nas = m n ;
 Ocl = p t k ;
+Voc = a e i o u ï;
 
 Rules 
 
@@ -21,3 +24,17 @@ Rules
 Ox:Sx <=> Nas: %>: _ ;
         where Ox in Ocl
               Sx in (b d g) matched ;
+
+"Preaspiracion de oclusivas"
+
+%{j%}:j <=> Voc: %>: _ [ t: s:|  k: w:  | p:  | t:  | k: | c: h: ]  %{a%}: Voc: ;
+
+"Delete aspiration in untervoc context"
+%{a%}:0 <=> %{j%}: [ t: s:|  k: w:  | p:  | t:  | k: | c: h: ] _ Voc: ;
+
+
+
+
+
+! s a p i i x k a > {j} t s  ' ï
+!  s a p i i x k a > j   t s 0  ï

@@ -27,6 +27,8 @@ Multichar_Symbols
 !!!! Archiphonemes
 
 %{t%} 
+%{j%}
+%{a%}
 
 LEXICON Root
 
@@ -39,7 +41,7 @@ LEXICON 12PERS
 %+ni%<1sg%>:%>ni #;
 %+ri%<2sg%>:%>ri #;
 %+kxï%<1pl%>:%>kxï #;
-%+ts'ï%<2pl%>:%>ts'ï #;
+%+ts'ï%<2pl%>:%>%{j%}ts%{a%}ï #;
 
 LEXICON 3PERS
 %+kxï%<3pl%>:%>kxï #;
