@@ -2,15 +2,29 @@ Multichar_Symbols
 
 %<n%>                ! Nombre
 
+%<abs%>              ! Forma absoluta
+%<af%>               ! Afectivo
+%<dim%>              ! Diminutivo
+
+%<pl%>               ! Plural
+
+%<pos1pl%>           ! Posesivo 1era plural
+%<pos1sg%>
+%<pos2pl%>
+%<pos2sg%>
+%<pos3pl%>
+%<pos3sg%>
+
 LEXICON Root
+
 DIMINUTIVE;
 POSSESSIVE;
 STEMS ;
+
 LEXICON STEMS
 
 siwa:siwa N-siwa ; ! “mujer”
 tlal:tlal N-tlal ; ! “tierra”
-
 a:a N-siwa ; ! "agua"
 coyo:coyo N-siwa ; !"coyote"
 tli:tli N-siwa ; ! "fuego"
