@@ -1,0 +1,21 @@
+^Tarhiata/*Tarhiata$, ^itsï/*itsï$, ^tsakapu/tsakapu<n>/tsakapu<n><sg>$
+
+^Itsï/*Itsï$ ^tsakapurhu/tsakapu<n><sg>+rhu<loc>$ ^weraxati/*weraxati$,
+^tarhiata/*tarhiata$ ^etsamataxïnti/*etsamataxïnti$ ^itsïni/*itsïni$,
+^tsakapu/tsakapu<n>/tsakapu<n><sg>$ ^anaxustaxïnti/*anaxustaxïnti$ ^tarhiatani/*tarhiatani$.
+^Itsï/*Itsï$, ^tarhiata/*tarhiata$, ^tsakapu/tsakapu<n>/tsakapu<n><sg>$.
+
+^Tarhiata/*Tarhiata$ ^karanarhikuxïnti/*karanarhikuxïnti$ ^tsakapuni/tsakapu<n><sg>+ni<obj>$,
+^tsakapu/tsakapu<n>/tsakapu<n><sg>$ ^itsï/*itsï$ ^jatakwaixti/*jatakwaixti$,
+^itsï/*itsï$ ^iurhesïnti/*iurhesïnti$ ^ka/*ka$ ^tarhiataixti/*tarhiataixti$.
+^Tsakapu/Tsakapu<n>/Tsakapu<n><sg>$, ^tarhiata/*tarhiata$, ^itsï/*itsï$.
+
+^Tarhiata/*Tarhiata$ ^iunuri/*iunuri$ ^úkwarhiparini/*úkwarhiparini$ ^pirexïnti/*pirexïnti$,
+^itsï/*itsï$ ^iurhexïnti/*iurhexïnti$ ^iatsimuparini/*iatsimuparini$,
+^tsakapu/tsakapu<n>/tsakapu<n><sg>$ ^pínaxku/*pínaxku$ ^kwámuxïnti/*kwámuxïnti$.
+^Tarhiata/*Tarhiata$, ^itsï/*itsï$, ^tsakapu/tsakapu<n>/tsakapu<n><sg>$.
+
+^Máteruixti/*Máteruixti$ ^ka/*ka$ ^no/*no$ ^ma/*ma$ ^jinteixti/*jinteixti$:
+^jakankurhikuicharhu/*jakankurhikuicharhu$ ^pakarati/*pakarati$
+^nitamaxïntiksï/*nitamaxïntiksï$ ^ka/*ka$ ^etsantexïntiksï/*etsantexïntiksï$
+^itsï/*itsï$, ^tsakapu/tsakapu<n>/tsakapu<n><sg>$, ^tarhiata/*tarhiata$.
